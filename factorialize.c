@@ -5,7 +5,7 @@
 
 int main(int argc, string argv[])
 {
-    int i;
+    long long i;
     int key = atoi(argv[1]);
     if (argc == 2)
     {
@@ -13,7 +13,7 @@ int main(int argc, string argv[])
         {
             i = key * i;
         }
-        printf("%i\n", i);
+        printf("%lld\n", i);
     }
 }
 
